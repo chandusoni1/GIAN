@@ -8,3 +8,12 @@ b=c;
 console.log("value of a "+ a,"value of b"+ b);
 
 
+// swapping of two numbers without using third variables 
+
+let a=150;
+let b=550;
+
+a=a+b;
+b=a-b; 
+a=a-b; 
+console.log("value of a"+a,"value of b"+b);
