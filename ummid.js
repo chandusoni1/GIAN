@@ -26,9 +26,15 @@ let si = 0;
 si = (p * r * t) / 100;
 console.log(si);
 
-
 //area of circle
-let A=0;
-let r=prompt("enter the radius");
-A=3.14*r*r;
+let A = 0;
+let r = prompt("enter the radius");
+A = 3.14 * r * r;
+console.log(A);
+
+// area of rectangle
+let A = 0;
+let w = prompt("enter the widht of a rectangle");
+let h = prompt("enter the hight of the rectangle");
+A = w * h;
 console.log(A);
