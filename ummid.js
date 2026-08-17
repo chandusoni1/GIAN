@@ -25,3 +25,10 @@ let t = prompt("enter time period");
 let si = 0;
 si = (p * r * t) / 100;
 console.log(si);
+
+
+//area of circle
+let A=0;
+let r=prompt("enter the radius");
+A=3.14*r*r;
+console.log(A);
