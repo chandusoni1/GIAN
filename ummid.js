@@ -39,8 +39,14 @@ let h = prompt("enter the hight of the rectangle");
 A = w * h;
 console.log(A);
 
-//celsuius to farenhite 
-let c = prompt("tempreture in celsius")
-let f =0;
-f=(c*9/5)+32;
+//celsuius to farenhite
+let c = prompt("tempreture in celsius");
+let f = 0;
+f = (c * 9) / 5 + 32;
 console.log(f);
+
+//farenhite to celsius
+let c = 0;
+let f = prompt("tempreture in farenhite");
+c = (f - 32) * 5 / 9;
+console.log(c);
