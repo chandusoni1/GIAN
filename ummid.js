@@ -19,7 +19,7 @@ console.log("value of a" + a, "value of b" + b);
 
 //caluculate simple interest
 
-let p = prompt("entre the principle amount");
+let p = prompt("entre the principle amount"); // prompt used for requesting data from users
 let r = prompt("enter the rate per annaum");
 let t = prompt("enter time period");
 let si = 0;
@@ -38,3 +38,9 @@ let w = prompt("enter the widht of a rectangle");
 let h = prompt("enter the hight of the rectangle");
 A = w * h;
 console.log(A);
+
+//celsuius to farenhite 
+let c = prompt("tempreture in celsius")
+let f =0;
+f=(c*9/5)+32;
+console.log(f);
